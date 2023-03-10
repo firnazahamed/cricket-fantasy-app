@@ -63,7 +63,7 @@ def get_scorecard(series_id, match_id):
             rows = table.find_all("tr")
             for row in rows:
                 player_id_col = row.find_all("a", href=True)
-                if len(player_id_col) > 0:
+                if len(player_id_col) > 0 and "cricketers" in player_id_col[0]["href"]:
                     player_id = player_id_col[0]["href"].split("-")[-1]
                     cols = row.find_all("td")
                     cols = [x.text.strip() for x in cols]
