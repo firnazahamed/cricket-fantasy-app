@@ -1,0 +1,23 @@
+Player_id,Name_batting,Desc,Runs_batting,Balls_batting,4s_batting,6s_batting,SR,Team_batting,base_points_batting,pace_points_batting,milestone_points_batting,impact_points_batting,batting_points,Name_bowling,Overs,Maidens,Runs_bowling,Wickets,Econ,Dots,4s_bowling,6s_bowling,Wd,Nb,Team_bowling,Balls_bowling,base_points_bowling,pace_points_bowling,milestone_points_bowling,impact_points_bowling,bowling_points,Name,Team,fielding_points,bonus_points,total_points
+44828,Faf du Plessis,c Shahrukh Khan b Arshdeep Singh,88,57,3,7,154.38,1,88,31,30.0,17,166.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Faf du Plessis,1,0,0,166.0
+1123073,Anuj Rawat,b Chahar,21,20,2,1,105.00,1,21,1,0.0,4,26.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Anuj Rawat,1,20,0,46.0
+253802,Virat Kohli,not out,41,29,1,2,141.37,1,41,12,5.0,5,63.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Virat Kohli,1,0,0,63.0
+30045,Dinesh Karthik,not out,32,14,3,3,228.57,1,32,18,5.0,9,64.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Dinesh Karthik,1,0,0,64.0
+914541,Sherfane Rutherford,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Sherfane Rutherford,1,0,0,0.0
+308251,David Willey,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,David Willey,3,0.0,28.0,0.0,9.33,5.0,3,1,0,0,1,18.0,0.0,-1.0,0.0,5.0,4.0,David Willey,1,0,0,4.0
+1159711,Shahbaz Ahmed,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Shahbaz Ahmed,1,0.0,6.0,0.0,6.00,3.0,1,0,0,0,1,6.0,0.0,6.0,0.0,3.0,9.0,Shahbaz Ahmed,1,20,0,29.0
+784379,Wanindu Hasaranga de Silva,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Wanindu Hasaranga de Silva,4,0.0,40.0,1.0,10.00,10.0,1,4,1,0,1,24.0,20.0,-4.0,0.0,10.0,26.0,Wanindu Hasaranga de Silva,1,0,0,26.0
+390481,Harshal Patel,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Harshal Patel,4,0.0,36.0,1.0,9.00,10.0,1,2,5,0,1,24.0,20.0,0.0,0.0,10.0,30.0,Harshal Patel,1,0,0,30.0
+940973,Mohammed Siraj,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Mohammed Siraj,4,0.0,59.0,2.0,14.75,9.0,3,4,6,0,1,24.0,40.0,-23.0,5.0,9.0,31.0,Mohammed Siraj,1,0,0,31.0
+1176959,Akash Deep,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Akash Deep,3,0.0,38.0,1.0,12.66,4.0,2,3,0,0,1,18.0,20.0,-11.0,0.0,4.0,13.0,Akash Deep,1,0,0,13.0
+398438,Mayank Agarwal,c Shahbaz Ahmed b de Silva,32,24,2,2,133.33,2,32,8,5.0,6,51.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Mayank Agarwal,2,0,5,56.0
+28235,Shikhar Dhawan,c Anuj Rawat b Patel,43,29,5,1,148.27,2,43,14,5.0,7,69.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Shikhar Dhawan,2,0,5,74.0
+342619,Bhanuka Rajapaksa,c Shahbaz Ahmed b Mohammed Siraj,43,22,2,4,195.45,2,43,21,5.0,10,79.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Bhanuka Rajapaksa,2,0,5,84.0
+403902,Liam Livingstone,c Anuj Rawat b Akash Deep,19,10,0,2,190.00,2,19,9,0.0,4,32.0,Liam Livingstone,1,0.0,14.0,0.0,14.00,1.0,0,1,1,0,2,6.0,0.0,-5.0,0.0,1.0,-4.0,Liam Livingstone,2,0,5,33.0
+1292502,Raj Bawa,lbw b Mohammed Siraj,0,1,0,0,0.00,2,0,-1,0.0,-5,-6.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Raj Bawa,2,0,5,-1.0
+719719,M Shahrukh Khan,not out,24,20,1,2,120.00,2,24,4,0.0,5,33.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,M Shahrukh Khan,2,10,5,48.0
+820691,Odean Smith,not out,25,8,1,3,312.50,2,25,17,5.0,7,54.0,Odean Smith,4,0.0,52.0,0.0,13.00,9.0,5,4,1,0,2,24.0,0.0,-16.0,0.0,9.0,-7.0,Odean Smith,2,0,30,77.0
+1168641,Harpreet Brar,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Harpreet Brar,3,0.0,38.0,0.0,12.66,5.0,0,4,1,0,2,18.0,0.0,-11.0,0.0,5.0,-6.0,Harpreet Brar,2,0,5,-1.0
+1125976,Arshdeep Singh,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Arshdeep Singh,4,0.0,31.0,1.0,7.75,11.0,0,2,3,0,2,24.0,20.0,10.0,0.0,11.0,41.0,Arshdeep Singh,2,0,5,46.0
+438362,Sandeep Sharma,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Sandeep Sharma,4,0.0,37.0,0.0,9.25,10.0,4,2,0,0,2,24.0,0.0,-1.0,0.0,10.0,9.0,Sandeep Sharma,2,0,5,14.0
+1064812,Rahul Chahar,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Rahul Chahar,4,0.0,22.0,1.0,5.50,8.0,0,0,1,0,2,24.0,20.0,28.0,0.0,8.0,56.0,Rahul Chahar,2,0,5,61.0

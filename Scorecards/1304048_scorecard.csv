@@ -1,0 +1,23 @@
+Player_id,Name_batting,Desc,Runs_batting,Balls_batting,4s_batting,6s_batting,SR,Team_batting,base_points_batting,pace_points_batting,milestone_points_batting,impact_points_batting,batting_points,Name_bowling,Overs,Maidens,Runs_bowling,Wickets,Econ,Dots,4s_bowling,6s_bowling,Wd,Nb,Team_bowling,Balls_bowling,base_points_bowling,pace_points_bowling,milestone_points_bowling,impact_points_bowling,bowling_points,Name,Team,fielding_points,bonus_points,total_points
+34102,Rohit Sharma,c Powell b Kuldeep Yadav,41,32,4,2,128.12,1,41,9,5.0,8,63.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Rohit Sharma,1,10,0,73.0
+720471,Ishan Kishan,not out,81,48,11,2,168.75,1,81,33,30.0,15,159.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Ishan Kishan,1,10,0,169.0
+851261,Anmolpreet Singh,c Lalit Yadav b Kuldeep Yadav,8,9,0,0,88.88,1,8,-1,0.0,0,7.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Anmolpreet Singh,1,0,0,7.0
+1170265,Tilak Varma,c Shaw b Ahmed,22,15,3,0,146.66,1,22,7,0.0,3,32.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Tilak Varma,1,10,0,42.0
+230559,Kieron Pollard,c Seifert b Kuldeep Yadav,3,6,0,0,50.00,1,3,-3,0.0,0,0.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Kieron Pollard,1,0,0,0.0
+892749,Tim David,c Mandeep Singh b Ahmed,12,8,0,1,150.00,1,12,4,0.0,2,18.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Tim David,1,10,0,28.0
+826901,Daniel Sams,not out,7,2,0,1,350.00,1,7,5,0.0,2,14.0,Daniel Sams,4,0.0,57.0,0.0,14.25,4.0,6,3,2,0,1,24.0,0.0,-21.0,0.0,4.0,-17.0,Daniel Sams,1,10,0,7.0
+528067,Murugan Ashwin,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Murugan Ashwin,4,0.0,14.0,2.0,3.50,14.0,1,0,0,0,1,24.0,40.0,44.0,5.0,14.0,103.0,Murugan Ashwin,1,0,0,103.0
+459257,Tymal Mills,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Tymal Mills,3,0.0,26.0,1.0,8.66,6.0,2,1,2,0,1,18.0,20.0,2.0,0.0,6.0,28.0,Tymal Mills,1,0,0,28.0
+625383,Jasprit Bumrah,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Jasprit Bumrah,3.2,0.0,43.0,0.0,12.90,4.0,7,1,0,0,1,20.0,0.0,-13.0,0.0,4.0,-9.0,Jasprit Bumrah,1,0,0,-9.0
+732291,Basil Thampi,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Basil Thampi,4,0.0,35.0,3.0,8.75,11.0,2,2,3,0,1,24.0,60.0,2.0,15.0,11.0,88.0,Basil Thampi,1,0,0,88.0
+1070168,Prithvi Shaw,c †Ishan Kishan b Basil Thampi,38,24,4,2,158.33,2,38,14,5.0,8,65.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Prithvi Shaw,2,10,5,80.0
+625964,Tim Seifert,b Ashwin,21,14,4,0,150.00,2,21,7,0.0,4,32.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Tim Seifert,2,10,5,47.0
+398506,Mandeep Singh,c Tilak Varma b Ashwin,0,2,0,0,0.00,2,0,-2,0.0,-5,-7.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Mandeep Singh,2,10,5,8.0
+931581,Rishabh Pant,c David b Mills,1,2,0,0,50.00,2,1,-1,0.0,0,0.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Rishabh Pant,2,0,5,5.0
+930189,Lalit Yadav,not out,48,38,4,2,126.31,2,48,10,5.0,8,71.0,Lalit Yadav,2,0.0,15.0,0.0,7.50,2.0,1,0,0,0,2,12.0,0.0,6.0,0.0,2.0,8.0,Lalit Yadav,2,10,5,94.0
+820351,Rovman Powell,c Sams b Basil Thampi,0,2,0,0,0.00,2,0,-2,0.0,-5,-7.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Rovman Powell,2,10,5,8.0
+475281,Shardul Thakur,c Sharma b Basil Thampi,22,11,4,0,200.00,2,22,11,0.0,4,37.0,Shardul Thakur,4,0.0,47.0,0.0,11.75,8.0,3,4,1,0,2,24.0,0.0,-11.0,0.0,8.0,-3.0,Shardul Thakur,2,0,5,39.0
+554691,Axar Patel,not out,38,17,2,3,223.52,2,38,21,5.0,8,72.0,Axar Patel,4,0.0,40.0,0.0,10.00,3.0,4,1,0,0,2,24.0,0.0,-4.0,0.0,3.0,-1.0,Axar Patel,2,0,5,76.0
+559235,Kuldeep Yadav,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Kuldeep Yadav,4,0.0,18.0,3.0,4.50,8.0,0,0,0,0,2,24.0,60.0,36.0,15.0,8.0,119.0,Kuldeep Yadav,2,0,30,149.0
+942645,Khaleel Ahmed,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Khaleel Ahmed,4,0.0,27.0,2.0,6.75,13.0,5,0,0,0,2,24.0,40.0,18.0,5.0,13.0,76.0,Khaleel Ahmed,2,0,5,81.0
+1070188,Kamlesh Nagarkoti,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Kamlesh Nagarkoti,2,0.0,29.0,0.0,14.50,4.0,5,1,1,0,2,12.0,0.0,-11.0,0.0,4.0,-7.0,Kamlesh Nagarkoti,2,0,5,-2.0

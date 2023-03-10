@@ -1,0 +1,23 @@
+Player_id,Name_batting,Desc,Runs_batting,Balls_batting,4s_batting,6s_batting,SR,Team_batting,base_points_batting,pace_points_batting,milestone_points_batting,impact_points_batting,batting_points,Name_bowling,Overs,Maidens,Runs_bowling,Wickets,Econ,Dots,4s_bowling,6s_bowling,Wd,Nb,Team_bowling,Balls_bowling,base_points_bowling,pace_points_bowling,milestone_points_bowling,impact_points_bowling,bowling_points,Name,Team,fielding_points,bonus_points,total_points
+422108,KL Rahul,c †Wade b Mohammed Shami,0,1,0,0,0.00,1,0,-1,0.0,-5,-6.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,KL Rahul,1,10,0,4.0
+379143,Quinton de Kock,b Mohammed Shami,7,9,1,0,77.77,1,7,-2,0.0,1,6.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Quinton de Kock,1,0,0,6.0
+431901,Evin Lewis,c Shubman Gill b Aaron,10,9,2,0,111.11,1,10,1,0.0,2,13.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Evin Lewis,1,0,0,13.0
+290630,Manish Pandey,b Mohammed Shami,6,5,1,0,120.00,1,6,1,0.0,1,8.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Manish Pandey,1,10,0,18.0
+497121,Deepak Hooda,lbw b Rashid Khan,55,41,6,2,134.14,1,55,14,15.0,10,94.0,Deepak Hooda,3,0.0,31.0,1.0,10.33,3.0,2,2,0,0,1,18.0,20.0,-4.0,0.0,3.0,19.0,Deepak Hooda,1,10,0,123.0
+1151270,Ayush Badoni,c Pandya b Aaron,54,41,4,3,131.70,1,54,13,15.0,10,92.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Ayush Badoni,1,0,0,92.0
+471342,Krunal Pandya,not out,21,13,3,0,161.53,1,21,8,0.0,3,32.0,Krunal Pandya,4,0.0,17.0,1.0,4.25,12.0,1,0,0,0,1,24.0,20.0,38.0,0.0,12.0,70.0,Krunal Pandya,1,0,0,102.0
+552152,Dushmantha Chameera,not out,1,1,0,0,100.00,1,1,0,0.0,0,1.0,Dushmantha Chameera,3,0.0,22.0,2.0,7.33,11.0,4,0,1,0,1,18.0,40.0,10.0,5.0,11.0,66.0,Dushmantha Chameera,1,0,0,67.0
+1132005,Mohsin Khan,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Mohsin Khan,2,0.0,18.0,0.0,9.00,4.0,3,0,0,0,1,12.0,0.0,0.0,0.0,4.0,4.0,Mohsin Khan,1,0,0,4.0
+1175441,Ravi Bishnoi,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Ravi Bishnoi,4,0.0,34.0,0.0,8.50,11.0,3,2,2,0,1,24.0,0.0,4.0,0.0,11.0,15.0,Ravi Bishnoi,1,0,0,15.0
+694211,Avesh Khan,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Avesh Khan,3.4,0.0,33.0,1.0,9.00,10.0,5,1,0,0,1,22.0,20.0,0.0,0.0,10.0,30.0,Avesh Khan,1,0,0,30.0
+1070173,Shubman Gill,c Hooda b Chameera,0,3,0,0,0.00,2,0,-3,0.0,-5,-8.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Shubman Gill,2,10,5,7.0
+230193,Matthew Wade,b Hooda,30,29,4,0,103.44,2,30,1,5.0,4,40.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Matthew Wade,2,10,5,55.0
+477021,Vijay Shankar,b Chameera,4,6,0,0,66.66,2,4,-2,0.0,0,2.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Vijay Shankar,2,0,5,7.0
+625371,Hardik Pandya,c Pandey b Pandya,33,28,5,1,117.85,2,33,5,5.0,7,50.0,Hardik Pandya,4,0.0,37.0,0.0,9.25,10.0,6,1,0,0,2,24.0,0.0,-1.0,0.0,10.0,9.0,Hardik Pandya,2,10,5,74.0
+321777,David Miller,c Rahul b Avesh Khan,30,21,1,2,142.85,2,30,9,5.0,5,49.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,David Miller,2,0,5,54.0
+423838,Rahul Tewatia,not out,40,24,5,2,166.66,2,40,16,5.0,9,70.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Rahul Tewatia,2,0,5,75.0
+778963,Abhinav Manohar,not out,15,7,3,0,214.28,2,15,8,0.0,3,26.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Abhinav Manohar,2,0,5,31.0
+793463,Rashid Khan,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Rashid Khan,4,0.0,27.0,1.0,6.75,8.0,0,2,0,0,2,24.0,20.0,18.0,0.0,8.0,46.0,Rashid Khan,2,0,5,51.0
+493773,Lockie Ferguson,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Lockie Ferguson,4,0.0,24.0,0.0,6.00,11.0,1,1,1,0,2,24.0,0.0,24.0,0.0,11.0,35.0,Lockie Ferguson,2,0,5,40.0
+481896,Mohammed Shami,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Mohammed Shami,4,0.0,25.0,3.0,6.25,13.0,4,0,0,0,2,24.0,60.0,22.0,15.0,13.0,110.0,Mohammed Shami,2,0,30,140.0
+360911,Varun Aaron,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Varun Aaron,4,0.0,45.0,2.0,11.25,5.0,6,1,3,0,2,24.0,40.0,-9.0,5.0,5.0,41.0,Varun Aaron,2,0,5,46.0
