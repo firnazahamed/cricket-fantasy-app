@@ -1,0 +1,23 @@
+Player_id,Name_batting,Desc,Runs_batting,Balls_batting,4s_batting,6s_batting,SR,Team_batting,base_points_batting,pace_points_batting,milestone_points_batting,impact_points_batting,batting_points,Name_bowling,Overs,Maidens,Runs_bowling,Wickets,Econ,Dots,4s_bowling,6s_bowling,Wd,Nb,Team_bowling,Balls_bowling,base_points_bowling,pace_points_bowling,milestone_points_bowling,impact_points_bowling,bowling_points,Name,Team,fielding_points,bonus_points,total_points
+308967,Jos Buttler,c †Pooran b Umran Malik,35,28,3,3,125.00,1,35,7,5.0,9,56.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Jos Buttler,1,0,5,61.0
+1151278,Yashasvi Jaiswal,c Markram b Shepherd,20,16,2,1,125.00,1,20,4,0.0,4,28.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Yashasvi Jaiswal,1,0,5,33.0
+425943,Sanju Samson,c Abdul Samad b Kumar,55,27,3,5,203.70,1,55,28,15.0,13,111.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Sanju Samson,1,10,30,151.0
+1119026,Devdutt Padikkal,b Umran Malik,41,29,4,2,141.37,1,41,12,5.0,8,66.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Devdutt Padikkal,1,10,5,81.0
+670025,Shimron Hetmyer,b Natarajan,32,13,2,3,246.15,1,32,19,5.0,8,64.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Shimron Hetmyer,1,20,5,89.0
+1079434,Riyan Parag,c †Pooran b Natarajan,12,9,2,0,133.33,1,12,3,0.0,2,17.0,Riyan Parag,1,0.0,14.0,0.0,14.00,0.0,1,1,0,0,1,6.0,0.0,-5.0,0.0,0.0,-5.0,Riyan Parag,1,10,5,27.0
+261354,Nathan Coulter Nile,not out,1,2,0,0,50.00,1,1,-1,0.0,0,0.0,Nathan Coulter-Nile,3,0.0,48.0,0.0,16.00,4.0,5,3,1,1,1,18.0,0.0,-21.0,0.0,4.0,-17.0,Nathan Coulter Nile,1,0,5,-12.0
+26421,Ravichandran Ashwin,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Ravichandran Ashwin,4,0.0,21.0,0.0,5.25,8.0,1,0,0,0,1,24.0,0.0,30.0,0.0,8.0,38.0,Ravichandran Ashwin,1,0,5,43.0
+430246,Yuzvendra Chahal,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Yuzvendra Chahal,4,0.0,22.0,3.0,5.50,8.0,1,0,0,0,1,24.0,60.0,28.0,15.0,8.0,111.0,Yuzvendra Chahal,1,0,5,116.0
+277912,Trent Boult,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Trent Boult,4,1.0,23.0,2.0,5.75,16.0,2,1,3,0,1,24.0,40.0,26.0,5.0,41.0,112.0,Trent Boult,1,0,5,117.0
+917159,Prasidh Krishna,DNB,0,0,0,0,0,1,0,0,0.0,0,0.0,Prasidh Krishna,4,1.0,16.0,2.0,4.00,16.0,1,1,0,0,1,24.0,40.0,40.0,5.0,41.0,126.0,Prasidh Krishna,1,0,5,131.0
+277906,Kane Williamson,c Padikkal b Prasidh Krishna,2,7,0,0,28.57,2,2,-5,0.0,0,-3.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Kane Williamson,2,0,0,-3.0
+1070183,Abhishek Sharma,c Hetmyer b Chahal,9,19,1,0,47.36,2,9,-10,0.0,1,0.0,Abhishek Sharma,1,0.0,15.0,0.0,15.00,1.0,1,1,0,0,2,6.0,0.0,-6.0,0.0,1.0,-5.0,Abhishek Sharma,2,0,0,-5.0
+446763,Rahul Tripathi,c †Samson b Prasidh Krishna,0,3,0,0,0.00,2,0,-3,0.0,-5,-8.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Rahul Tripathi,2,0,0,-8.0
+604302,Nicholas Pooran,lbw b Boult,0,9,0,0,0.00,2,0,-9,0.0,-5,-14.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Nicholas Pooran,2,20,0,6.0
+600498,Aiden Markram,not out,57,41,5,2,139.02,2,57,16,15.0,9,97.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Aiden Markram,2,10,0,107.0
+1175485,Abdul Samad,c Parag b Chahal,4,6,0,0,66.66,2,4,-2,0.0,0,2.0,0,0,0.0,0.0,0.0,0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,Abdul Samad,2,10,0,12.0
+677077,Romario Shepherd,b Chahal,24,18,0,2,133.33,2,24,6,0.0,4,34.0,Romario Shepherd,4,0.0,33.0,1.0,8.25,12.0,3,2,1,0,2,24.0,20.0,6.0,0.0,12.0,38.0,Romario Shepherd,2,0,0,72.0
+719715,Washington Sundar,c Hetmyer b Boult,40,14,5,2,285.71,2,40,26,5.0,9,80.0,Washington Sundar,3,0.0,47.0,0.0,15.66,3.0,1,5,0,1,2,18.0,0.0,-20.0,0.0,3.0,-17.0,Washington Sundar,2,0,0,63.0
+326016,Bhuvneshwar Kumar,not out,3,4,0,0,75.00,2,3,-1,0.0,0,2.0,Bhuvneshwar Kumar,4,0.0,29.0,1.0,7.25,14.0,2,2,1,2,2,24.0,20.0,14.0,0.0,14.0,48.0,Bhuvneshwar Kumar,2,0,0,50.0
+1246528,Umran Malik,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,Umran Malik,4,0.0,39.0,2.0,9.75,12.0,4,2,2,1,2,24.0,40.0,-3.0,5.0,12.0,54.0,Umran Malik,2,0,0,54.0
+802575,T Natarajan,DNB,0,0,0,0,0,2,0,0,0.0,0,0.0,T Natarajan,4,0.0,43.0,2.0,10.75,8.0,5,2,2,0,2,24.0,40.0,-7.0,5.0,8.0,46.0,T Natarajan,2,0,0,46.0
