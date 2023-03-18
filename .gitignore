@@ -133,3 +133,11 @@ dmypy.json
 
 # Streamlit secrets file
 .streamlit/
+
+# GCP service account key
+.credentials/
+
+# Local files 
+Outputs/
+Scorecards/
+Squads/
