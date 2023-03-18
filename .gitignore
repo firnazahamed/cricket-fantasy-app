@@ -135,7 +135,7 @@ dmypy.json
 .streamlit/
 
 # GCP service account key
-.credentials/
+credentials/
 
 # Local files 
 Outputs/
