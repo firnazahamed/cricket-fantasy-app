@@ -7,6 +7,7 @@ import pandas as pd
 import re
 import argparse
 import numpy as np
+from helpers import upload_df_to_gcs
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
@@ -320,4 +321,5 @@ def get_scorecard(series_id, match_id):
 if __name__ == "__main__":
 
     args = get_args()
-    get_scorecard(8048, args.match_id)
+    df = get_scorecard(8048, args.match_id)
+    upload_df_to_gcs(df, f"Scorecards/{args.match_id}_scorecard.csv")

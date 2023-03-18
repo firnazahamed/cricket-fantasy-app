@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 
+from helpers import upload_df_to_gcs
 from settings import weeks, owner_team_dict, player_id_dict
 
 
@@ -173,11 +174,19 @@ def create_score_df(
 
 def save_outputs(score_df, sum_df, cumsum_df, standings_df, weekly_points_df):
 
+    # Save output files locally
     score_df.to_csv("./Outputs/score_df.csv", header=True, index=False)
     sum_df.to_csv("./Outputs/sum_df.csv", header=True, index=False)
     cumsum_df.to_csv("./Outputs/cumsum_df.csv", header=True, index=False)
     standings_df.to_csv("./Outputs/standings_df.csv", header=True, index=False)
     weekly_points_df.to_csv("./Outputs/weekly_points_df.csv", header=True, index=False)
+
+    # Save output files to GCS
+    upload_df_to_gcs(score_df, f"Outputs/score_df.csv")
+    upload_df_to_gcs(sum_df, f"Outputs/sum_df.csv")
+    upload_df_to_gcs(cumsum_df, f"Outputs/cumsum_df.csv")
+    upload_df_to_gcs(standings_df, f"Outputs/standings_df.csv")
+    upload_df_to_gcs(weekly_points_df, f"Outputs/weekly_points_df.csv")
 
 
 if __name__ == "__main__":

@@ -25,3 +25,17 @@ def read_file(bucket_name, file_path, format="csv", sheet_name=None):
         df = pd.read_excel(BytesIO(content), sheet_name=sheet_name)
 
     return df
+
+
+def upload_df_to_gcs(df, file_path):
+
+    # Setting credentials using the downloaded JSON file
+    client = storage.Client.from_service_account_json(
+        json_credentials_path="credentials/cricinfo-273202-a7420ddc1abd.json"
+    )
+    bucket = client.get_bucket("summer-is-coming-2023")
+    bucket.blob(file_path).upload_from_string(
+        df.to_csv(header=True, index=False), "text/csv"
+    )
+    # object_name_in_gcs_bucket = bucket.blob(file_path)
+    # object_name_in_gcs_bucket.upload_from_filename(df)
