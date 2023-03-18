@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
+from helpers import read_file
 
-df = pd.read_csv("Unsold_players.csv")
+bucket_name = "summer-is-coming-2023"
+unsold_df = read_file(bucket_name, "Unsold_players.csv")
 st.header("Unsold Players")
-# st.dataframe(df)
-st.table(df)
+# st.dataframe(unsold_df)
+st.table(unsold_df)

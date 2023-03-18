@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from helpers import read_file
 
 st.set_page_config(page_title="Plots", page_icon="📊")
 
 st.markdown("# Comparison plots")
 
-cumsum_df = pd.read_csv("./Outputs/cumsum_df.csv", index_col="Owner")
+bucket_name = "summer-is-coming-2023"
+cumsum_df = read_file(bucket_name, "Outputs/cumsum_df.csv").set_index("Owner")
 
 players = st.multiselect("Choose players", cumsum_df.index)
 if not players:
