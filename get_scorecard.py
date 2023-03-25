@@ -211,7 +211,18 @@ def get_scorecard(series_id, match_id):
         + batsmen_df["impact_points"]
     )
 
-    fielder_df = batsmen_df[["Name", "Team", "Player_id"]]
+    teams_df = (
+        pd.concat(
+            [
+                batsmen_df[["Name", "Team", "Player_id"]],
+                bowler_df[["Name", "Team", "Player_id"]],
+            ]
+        )
+        .drop_duplicates()
+        .reset_index(drop=True)
+    )
+
+    fielder_df = teams_df.copy()
     fielder_df.loc[:, "fielding_points"] = 0
     for team in [1, 2]:
         fielders = []
@@ -292,14 +303,11 @@ def get_scorecard(series_id, match_id):
             fielder_df.loc[fielder_df["Team"] == winner_index, "bonus_points"] += 5
 
     total_df = (
-        batsmen_df.set_index("Player_id")
-        .join(
-            bowler_df.set_index("Player_id"),
-            how="left",
-            lsuffix="_batting",
-            rsuffix="_bowling",
+        teams_df.merge(batsmen_df, how="left", on=["Name", "Player_id", "Team"])
+        .merge(
+            bowler_df, how="left", on=["Player_id"], suffixes=("_batting", "_bowling")
         )
-        .join(fielder_df.set_index("Player_id"))
+        .merge(fielder_df, how="left", on=["Player_id"])
         .fillna(0)
     )
 
