@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+from altair import datum
 from helpers import read_file
+from get_standings import retrieve_scorecards
 
 st.set_page_config(page_title="Plots", page_icon="📊")
 
@@ -12,6 +14,50 @@ sum_df = read_file(bucket_name, "Outputs/sum_df.csv").set_index("Owner")
 st.header("Draft Standings Race")
 st.line_chart(cumsum_df.T)
 
+st.markdown("#")
+st.header("Player performance")
+st.markdown(
+    "Plot shows the points scored by the players excluding the multipliers for captains"
+)
+scorecards = retrieve_scorecards()
+combined_scorecards = pd.concat([scorecards[k] for k in scorecards.keys()])
+agg_points_data = (
+    combined_scorecards.groupby(["Name_batting"])
+    .agg(
+        {
+            "batting_points": "sum",
+            "bowling_points": "sum",
+            "fielding_points": "sum",
+            "total_points": "sum",
+        }
+    )
+    .reset_index()
+    .sort_values("total_points", ascending=False)
+)
+
+c = (
+    alt.Chart(agg_points_data)
+    .mark_circle()
+    .encode(
+        x="batting_points",
+        y="bowling_points",
+        color="total_points",
+        tooltip=["Name_batting", "batting_points", "bowling_points", "fielding_points"],
+    )
+    .interactive()
+)
+
+annotation_points_cutoff = agg_points_data[:5].total_points.min()
+annotation = (
+    alt.Chart(agg_points_data)
+    .mark_text(align="left", baseline="middle", fontSize=10, dx=7)
+    .encode(x="batting_points", y="bowling_points", text="Name_batting")
+    .transform_filter((datum.total_points >= annotation_points_cutoff))
+)
+
+st.altair_chart((c + annotation), use_container_width=True)
+
+st.markdown("#")
 st.header("Comparison plots")
 
 players = st.multiselect("Choose team owners", cumsum_df.index)
