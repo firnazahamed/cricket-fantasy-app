@@ -163,16 +163,34 @@ def create_score_df(
                 score_df[scores_available].replace(r"^\s*$", 0, regex=True).sum(axis=1)
             )
 
+    combined_scorecards = pd.concat([scorecards[k] for k in scorecards.keys()])
+    agg_points_df = (
+        combined_scorecards.groupby(["Name_batting"])
+        .agg(
+            {
+                "batting_points": "sum",
+                "bowling_points": "sum",
+                "fielding_points": "sum",
+                "total_points": "sum",
+            }
+        )
+        .reset_index()
+        .sort_values("total_points", ascending=False)
+    )
+
     return (
         score_df,
         sum_df.reset_index(),
         cumsum_df.reset_index(),
         standings_df.reset_index(),
         weekly_points_df,
+        agg_points_df,
     )
 
 
-def save_outputs(score_df, sum_df, cumsum_df, standings_df, weekly_points_df):
+def save_outputs(
+    score_df, sum_df, cumsum_df, standings_df, weekly_points_df, agg_points_df
+):
 
     # Save output files locally
     score_df.to_csv("./Outputs/score_df.csv", header=True, index=False)
@@ -180,6 +198,7 @@ def save_outputs(score_df, sum_df, cumsum_df, standings_df, weekly_points_df):
     cumsum_df.to_csv("./Outputs/cumsum_df.csv", header=True, index=False)
     standings_df.to_csv("./Outputs/standings_df.csv", header=True, index=False)
     weekly_points_df.to_csv("./Outputs/weekly_points_df.csv", header=True, index=False)
+    agg_points_df.to_csv("./Outputs/agg_points_df.csv", header=True, index=False)
 
     # Save output files to GCS
     upload_df_to_gcs(score_df, f"Outputs/score_df.csv")
@@ -187,13 +206,23 @@ def save_outputs(score_df, sum_df, cumsum_df, standings_df, weekly_points_df):
     upload_df_to_gcs(cumsum_df, f"Outputs/cumsum_df.csv")
     upload_df_to_gcs(standings_df, f"Outputs/standings_df.csv")
     upload_df_to_gcs(weekly_points_df, f"Outputs/weekly_points_df.csv")
+    upload_df_to_gcs(agg_points_df, f"Outputs/agg_points_df.csv")
 
 
 if __name__ == "__main__":
 
     scorecards = retrieve_scorecards()
     weekly_dicts, squad_dict = retrieve_team_info()
-    score_df, sum_df, cumsum_df, standings_df, weekly_points_df = create_score_df(
+    (
+        score_df,
+        sum_df,
+        cumsum_df,
+        standings_df,
+        weekly_points_df,
+        agg_points_df,
+    ) = create_score_df(
         scorecards, weekly_dicts, squad_dict, weeks, owner_team_dict, player_id_dict
     )
-    save_outputs(score_df, sum_df, cumsum_df, standings_df, weekly_points_df)
+    save_outputs(
+        score_df, sum_df, cumsum_df, standings_df, weekly_points_df, agg_points_df
+    )
