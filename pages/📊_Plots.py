@@ -19,24 +19,10 @@ st.header("Player performance")
 st.markdown(
     "Plot shows the points scored by the players excluding the multipliers for captains"
 )
-scorecards = retrieve_scorecards()
-combined_scorecards = pd.concat([scorecards[k] for k in scorecards.keys()])
-agg_points_data = (
-    combined_scorecards.groupby(["Name_batting"])
-    .agg(
-        {
-            "batting_points": "sum",
-            "bowling_points": "sum",
-            "fielding_points": "sum",
-            "total_points": "sum",
-        }
-    )
-    .reset_index()
-    .sort_values("total_points", ascending=False)
-)
 
+agg_points_df = read_file(bucket_name, "Outputs/agg_points_df.csv")
 c = (
-    alt.Chart(agg_points_data)
+    alt.Chart(agg_points_df)
     .mark_circle()
     .encode(
         x="batting_points",
@@ -47,9 +33,9 @@ c = (
     .interactive()
 )
 
-annotation_points_cutoff = agg_points_data[:5].total_points.min()
+annotation_points_cutoff = agg_points_df[:5].total_points.min()
 annotation = (
-    alt.Chart(agg_points_data)
+    alt.Chart(agg_points_df)
     .mark_text(align="left", baseline="middle", fontSize=10, dx=7)
     .encode(x="batting_points", y="bowling_points", text="Name_batting")
     .transform_filter((datum.total_points >= annotation_points_cutoff))
