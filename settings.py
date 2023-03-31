@@ -188,6 +188,7 @@ player_id_dict = {
     "Marcus Stoinis": "325012",
     "Mark Wood": "351588",
     "Matheesha Pathirana": "1194795",
+    "Mathew Short": "605575",
     "Matthew Wade": "230193",
     "Mayank Agarwal": "398438",
     "Mayank Dagar": "942367",
