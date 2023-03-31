@@ -18,7 +18,9 @@ def retrieve_scorecards():
 
 
 def retrieve_team_info():
-    sheet_titles = os.listdir("./Squads/")
+    sheet_titles = [
+        c for c in os.listdir("./Squads/") if not c.startswith(".")
+    ]  # Ignore hidden files like .DS_Store
     weekly_dicts = {}
     squad_df = pd.DataFrame()
     for sheet_title in sheet_titles:
@@ -58,7 +60,7 @@ def create_score_df(
             score_df.loc[len(score_df.index)] = [k, player]
 
     score_df["Player_id"] = [
-        int(player_id_dict[player]) for player in score_df["Player"]
+        int(player_id_dict[player.strip()]) for player in score_df["Player"]
     ]
 
     match_ids = [sc.split("_")[0] for sc in scorecards.keys()]
@@ -77,7 +79,7 @@ def create_score_df(
         ).flatten()
         playing_df = pd.DataFrame(data={"Owner": owners, "Player": players})
         playing_df["Player_id"] = [
-            int(player_id_dict[player]) for player in playing_df["Player"]
+            int(player_id_dict[player.strip()]) for player in playing_df["Player"]
         ]
 
         playing_df = (
@@ -108,7 +110,9 @@ def create_score_df(
             data={"Owner": reserve_owners, "Player": reserve_players}
         ).fillna("")
         reserve_df["Player_id"] = [
-            int(player_id_dict[player]) if player is not None and player != "" else None
+            int(player_id_dict[player.strip()])
+            if player is not None and player != ""
+            else None
             for player in reserve_df["Player"]
         ]
 
