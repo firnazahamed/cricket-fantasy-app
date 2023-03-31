@@ -1,13 +1,13 @@
 weeks = {
-    "Week1": {"matches": [str(1359475 + i) for i in range(9)]},
-    "Week2": {"matches": [str(1359475 + i) for i in range(9, 18)]},
-    "Week3": {"matches": [str(1359475 + i) for i in range(18, 28)]},
-    "Week4": {"matches": [str(1359475 + i) for i in range(28, 37)]},
-    "Week5": {"matches": [str(1359475 + i) for i in range(37, 47)]},
-    "Week6": {"matches": [str(1359475 + i) for i in range(47, 56)]},
-    "Week7": {"matches": [str(1359475 + i) for i in range(56, 65)]},
-    "Week8": {"matches": [str(1359475 + i) for i in range(65, 70)]},
-    "Week9": {"matches": [str(1359475 + i) for i in range(70, 74)]},
+    "Week1": {"matches": [str(1359475 + i) for i in range(10)]},
+    "Week2": {"matches": [str(1359475 + i) for i in range(10, 19)]},
+    "Week3": {"matches": [str(1359475 + i) for i in range(19, 29)]},
+    "Week4": {"matches": [str(1359475 + i) for i in range(29, 38)]},
+    "Week5": {"matches": [str(1359475 + i) for i in range(38, 48)]},
+    "Week6": {"matches": [str(1359475 + i) for i in range(48, 57)]},
+    "Week7": {"matches": [str(1359475 + i) for i in range(57, 66)]},
+    "Week8": {"matches": [str(1359475 + i) for i in range(66, 71)]},
+    "Week9": {"matches": [str(1359475 + i) for i in range(71, 74)]},
 }
 
 owner_team_dict = {
