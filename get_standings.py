@@ -7,7 +7,7 @@ from settings import weeks, owner_team_dict, player_id_dict
 
 
 def retrieve_scorecards():
-    scorcard_sheets = os.listdir("./Scorecards/")
+    scorcard_sheets = sorted(os.listdir("./Scorecards/"))
     scorecards = {}
     for scorecard_sheet in scorcard_sheets:
         if not scorecard_sheet.startswith("."):  # Ignore hidden files like .DS_Store
