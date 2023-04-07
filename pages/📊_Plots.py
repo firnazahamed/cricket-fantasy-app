@@ -11,6 +11,11 @@ bucket_name = "summer-is-coming-2023"
 cumsum_df = read_file(bucket_name, "Outputs/cumsum_df.csv").set_index("Owner")
 sum_df = read_file(bucket_name, "Outputs/sum_df.csv").set_index("Owner")
 
+cumsum_df = cumsum_df.rename(
+    columns={
+        x: int(x.split("Match_")[1]) for x in cumsum_df.columns if x.startswith("Match")
+    }
+)
 st.header("Draft Standings Race")
 st.line_chart(cumsum_df.T)
 
