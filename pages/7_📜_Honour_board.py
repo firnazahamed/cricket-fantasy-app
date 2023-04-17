@@ -5,10 +5,10 @@ from helpers import read_file
 st.set_page_config(layout="wide")
 honour_board = pd.DataFrame(
     {
-        "Season": [2019, 2020, 2021, 2022],
-        "Winner": ["Mabbu", "Saju", "Saju", "Firi"],
-        "Runner-up": ["Bhar", "Siddhu", "Srini", "Bhar"],
-        "Second runner-up": ["Shar", "Srini", "Firi", "Saju"],
+        "Season": [2018, 2019, 2020, 2021, 2022],
+        "Winner": ["Ashkay", "Mabbu", "Saju", "Saju", "Firi"],
+        "Runner-up": ["Mabbu", "Bhar", "Siddhu", "Srini", "Bhar"],
+        "Second runner-up": ["Bhar", "Shar", "Srini", "Firi", "Saju"],
     }
 ).set_index("Season")
 
@@ -18,7 +18,7 @@ st.table(honour_board)
 st.header("Past Seasons")
 bucket_name = "summer-is-coming-2023"
 
-for year in [2022, 2021, 2020, 2019]:
+for year in [2022, 2021, 2020, 2019, 2018]:
 
     col1, col2 = st.columns([2, 3])
 
