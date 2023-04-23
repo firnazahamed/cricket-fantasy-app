@@ -71,7 +71,7 @@ def get_scorecard(series_id, match_id):
                     bowler_df = bowler_df.append(
                         pd.Series(
                             [
-                                cols[0],
+                                re.sub(r"\W+", " ", cols[0]).strip(),
                                 cols[1],
                                 cols[2],
                                 cols[3],
