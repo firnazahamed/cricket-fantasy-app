@@ -5,8 +5,10 @@ from helpers import read_file
 st.set_page_config(layout="wide")
 st.title("Player performance statistics")
 
-prices_df = pd.read_csv("2023_price_list.csv")
-agg_points_df = pd.read_csv("Outputs/agg_points_df.csv")
+bucket_name = "summer-is-coming-2023"
+unsold_df = read_file(bucket_name, "Unsold_players.csv")
+prices_df = read_file(bucket_name, "2023_price_list.csv")
+agg_points_df = read_file(bucket_name, "Outputs/agg_points_df.csv")
 
 df = prices_df.merge(agg_points_df, left_on="Player_name", right_on="Name_batting")
 df = df[
